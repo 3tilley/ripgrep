@@ -1,3 +1,5 @@
+#![allow(warnings)]
+
 use std::{
     io::{self, Write},
     time::Instant,
@@ -13,6 +15,7 @@ mod messages;
 mod app;
 mod args;
 mod config;
+mod flags;
 mod logger;
 mod search;
 mod subject;
